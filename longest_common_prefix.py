@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/longest-common-prefix/
 
 class Solution:
-    def longestCommonPrefix(self, s: List[str]) -> str:
+    def longestCommonPrefix(self, s: List[str]) -> str:      # strs = ["flower","flow","flight"]
         l=len(s)
         p=""
         if l==1:
